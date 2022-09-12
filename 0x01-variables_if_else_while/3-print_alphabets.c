@@ -8,7 +8,7 @@
  *
  *   * Return: Always 0 (Success)
  *
- *   */
+ */
 
 
 
@@ -22,7 +22,7 @@ int main(void)
 
 
 
-				for (i = 0; i < 52; i++)
+	for (i = 0; i < 52; i++)
 
 						{
 
