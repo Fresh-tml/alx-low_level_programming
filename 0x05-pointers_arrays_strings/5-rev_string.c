@@ -26,4 +26,5 @@ void rev_string(char *s)
 			s[size - half] = last;
 			half--;
 		}
+	}
 }
