@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strncpy - copies at most an inputted number of bytes from string src
@@ -10,18 +11,6 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int index i;
-
-	i = 0;
-	while (i < n && src[i] != '\0')
-	{
-		dest[i] = src[i];
-		i++;
-	}
-	while (i < n)
-	{
-		dest[i] = '\0';
-		i++;
-	}
+	strncpy(dest, src, n);
 	return (dest);
 }
