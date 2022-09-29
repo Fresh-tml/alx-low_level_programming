@@ -16,7 +16,7 @@ int is_prime_number(int n)
 }
 
 /**
- * check_prime - check prime number
+ * real_prime - check prime number
  * @n: number
  * @i: iterator
  * Return: a 1 or 0
