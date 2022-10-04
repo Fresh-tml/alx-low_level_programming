@@ -9,9 +9,9 @@
 
 char **strtow(char *str)
 {
-	int flag, c, w;
-	flag = 0;
-	w = 0;
+	int c;
+	int flag = 0;
+	int w = 0;
 
 	for (c = 0; s[c] != '\0'; c++)
 	{
@@ -28,7 +28,7 @@ char **strtow(char *str)
 }
 
 /**
- * **strtow - splits a string 
+ * **strtow - splits a string into words
  * @str: string
  * Return: pointer to an array
  */
